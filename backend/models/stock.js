@@ -9,7 +9,6 @@ const stockSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-
     monthlyPrice: {
         type: Object
     },

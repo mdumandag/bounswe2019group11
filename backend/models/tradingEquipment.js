@@ -9,14 +9,12 @@ const tradingEquipmentSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-
     monthlyPrice: {
         type: Object
     },
     dailyPrice: {
         type: Object
     }
-
 });
 
 const TradingEquipment = mongoose.model('TradingEquipment', tradingEquipmentSchema);
